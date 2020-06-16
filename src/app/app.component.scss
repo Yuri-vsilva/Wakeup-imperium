@@ -1,0 +1,62 @@
+@import './styles/colors.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    background-color: #dadada !important;
+    color: $black !important;
+    font-size: 19px;
+    overflow-x: hidden;
+}
+
+input, select, textarea {
+    // -webkit-appearance: none !important;
+    // margin: 0 !important;
+    border-color: lightgrey !important;
+    box-shadow: none !important;
+}
+
+a:hover:not(.navbar-brand) {
+    // color: inherit !important;
+    text-decoration: none !important;
+}
+
+.close:focus, .btn:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+
+.wrapper {
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+img.nav-logo {
+    max-width: 165px;
+}
+
+
+@media (max-width: 991px) 
+{
+    img.nav-logo {
+        max-width: 165px;
+    }    
+
+    .wrapper {
+        margin-top: 52px;
+        margin-bottom: 20px;
+    }
+}
+
+
+img.footer-logo {
+    max-width: 320px;
+}
+
+.text-weight-500 {
+    font-weight: 500 !important;
+}
